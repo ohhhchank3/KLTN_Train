@@ -5,7 +5,7 @@ from langchain.document_loaders import UnstructuredPDFLoader
 
 import app1 as filepdf
 import pdf_document as words
-
+#
 os.environ["GOOGLE_API_KEY"] = "AIzaSyBq-FAdWKYvDaA8IlVO8rOlIsySjxTYXs0"
 
 st.set_page_config(page_title="ChatPDF", page_icon="📄")
